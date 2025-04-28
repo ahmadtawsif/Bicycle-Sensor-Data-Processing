@@ -13,5 +13,8 @@ processed data. The data visualization tools must have the compatibility to cont
 new data. Additionally, the sensor data of each rider can be compared to each other and against
 the aggregate trend. With the sensor data, an attempt was undertaken to classify different cycling
 modes along the cycling path.On
-the other side, PostgreSQL, and Apache Superset were utilized as tools for database creation, sensor data visualization, and reporting purposes.
+the other side, PostgreSQL, and Apache Superset were utilized as tools for database creation, sensor data visualization, and reporting purposes. 
+After cleaning and smoothing all the cyclists' (29) sensor data they are visualized with the open-source dashboard tool called Apache Superset. In the dashboard 
+information of the riders, sensor data with repect to time and distance has been published. 
+The URL of the dashboard: http://localhost:8088/superset/dashboard/p/x3kA7WnAamd/
 ![bicycle-data-visualization-dashboard-2025-04-28T18-00-50 747Z](https://github.com/user-attachments/assets/f1b98d7c-d249-445f-adac-c77745b5e22f)
